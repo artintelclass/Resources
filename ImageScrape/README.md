@@ -23,7 +23,7 @@ By default it will only download 10 jpg formatted images, and will not resize or
 
 - Python 2
 - Requires Chrome Driver: [https://sites.google.com/a/chromium.org/chromedriver/](https://sites.google.com/a/chromium.org/chromedriver/)
-Download and copy path location to imageScrape.py line 43: `driver = webdriver.Chrome(<PATH TO CHROMEDRIVER HERE>)`
+	- Download and copy path location to imageScrape.py line 43: `driver = webdriver.Chrome(<PATH TO CHROMEDRIVER HERE>)`
 - selenium `conda install selenium` (if using conda)
 
 Based on [https://github.com/atif93/google_image_downloader](https://github.com/atif93/google_image_downloader)
