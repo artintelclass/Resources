@@ -37,6 +37,12 @@ We'll use SFTP to move files between our computers and the class computers.
 - Put a file from your computer on to the class computer: `put <FILENAME>`
 - Quit SFTP: `bye`
 
+### Misc.
+- The IP Address may change from time to time. While at the actual class computer get the ip address: `ifconfig`
+- Remove a file: `rm <FILENAME>`
+- Remove a folder with files in it: `rm -r <FOLDERNAME>`
+- Remove all files of a certain type (jpg in this example): `~rm *jpg`
+
 ### Assigned Computers:
 1:
 - Yuxin
