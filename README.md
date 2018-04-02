@@ -30,3 +30,5 @@ We will use tmux for a detachable command line window. tmux commands:
 
 ### SFTP
 We'll use SFTP to move files between our computers and the class computers.
+- If logged into the class computer, SFTP into your own computer:
+  - `sftp <yourusername>@<yourIPADDRESS>`
