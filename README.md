@@ -5,7 +5,7 @@ We have three computers for machine learning use. We need to share these three a
 - Only use these computers for dedicated machine learning tasks.
 - Don't leave finished tasks still running on tmux.
 - Move any output files you want to save to your computer and **delete all other generated files** as soon as a task is done.
-- Each person will have one computer they are assigned to to use. Please only use the computer you've been assigned to. If that computer is tied up for long periods, but another is free, let me know and we can talk about using a different computer.
+- Each person will have one computer they are assigned to use. Please only use the computer you've been assigned to. If that computer is tied up for long periods, but another is free, let me know and we can talk about using a different computer.
 - **Only add or change dependencies on your own environment**.
 - Check to see if anyone is currently using the computer by checking the tmux sessions (more below).
 - Run ALL of your processes in tmux.
