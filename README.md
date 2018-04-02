@@ -14,10 +14,10 @@ We have three computers for machine learning use. We need to share these three a
 We'll be using Anaconda to manage our dependencies. I've set up CUDA and Tensorflow already and made a base conda environment for you to build off of. You need to clone this environment into your own personal environment:
 - `conda create --name <YOURNAME> --clone tensorflow`
 
-ANy changes to Python version, python libraries, etc. you want to make will happen in your own environment.
+Any changes to Python version, python libraries, etc. you want to make will happen in your own environment.
 
 ### SSH
-You can log into your computer remotely via SSH:
+You can log into your assigned class computer remotely via SSH:
 - `ssh nyuad@<IPADDRESS>`
 
 ### TMUX
@@ -30,5 +30,26 @@ We will use tmux for a detachable command line window. tmux commands:
 
 ### SFTP
 We'll use SFTP to move files between our computers and the class computers.
-- If logged into the class computer, SFTP into your own computer:
-  - `sftp <yourusername>@<yourIPADDRESS>`
+- SFTP into the class computer: `sftp nyuad@<IPADDRESS>`
+- Normal unix file structure navigation commands work, but through the file structure on the class computer computer: `cd ls pwd`
+- To navigate the file structure on your computer put an l before the commands for local: `lcd lls lpwd`
+- Get a file from the class computer: `get <FILENAME>`
+- Put a file from your computer on to the class computer: `put <FILENAME>`
+- Quit SFTP: `bye`
+
+### Assigned Computers:
+1:
+- Yuxin
+- Nick
+- Manas
+
+2:
+- Krishna
+- Gabor
+- Farzan
+
+3:
+- Andrija
+- Ali
+- Alejandra
+- Aadi
