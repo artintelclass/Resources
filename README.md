@@ -1,4 +1,4 @@
-## Art Intel Computers
+# Art Intel Computers
 
 ### Fairplay
 We have three computers for machine learning use. We need to share these three amongst all of us. So here are a few community rules:
