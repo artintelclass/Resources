@@ -22,7 +22,7 @@ You can log into your computer remotely via SSH:
 
 ### TMUX
 We will use tmux for a detachable command line window. tmux commands:
-- Check if there is another session running: `tmux ls`
+- Check if there is another session running (list sessions): `tmux ls`
 - Start a new session: `tmux new -s <YOURNAME>`
 - Detach window (while in a session): `ctrl+b` then `d` 
 - Reattach to a session: `tmux a -t <NAMEOFSESSION>`
