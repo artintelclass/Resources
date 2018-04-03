@@ -47,17 +47,17 @@ We have three computers for machine learning use. We need to share these three a
 - Run ALL of your processes in tmux.
 
 ### Assigned Computers:
-1:
+1: (location 153)
 - Yuxin
 - Nick
 - Manas
 
-2:
+2: (location IM lab)
 - Krishna
 - Gabor
 - Farzan
 
-3:
+3: (location IM lab)
 - Andrija
 - Ali
 - Alejandra
