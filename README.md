@@ -34,7 +34,7 @@ We'll use SFTP to move files between our computers and the class computers.
 - Remove all files of a certain type (jpg in this example): `~rm *jpg`
 
 ### Locking the computers
-When working on the actual computers ***don't suspend** them when you're done. This will make it so no one can SSH into them. ***Lock them.**
+When working on the actual computers ***don't suspend*** them when you're done. This will make it so no one can SSH into them. ***Lock them.***
 
 ### Fairplay
 We have three computers for machine learning use. We need to share these three amongst all of us. So here are a few community rules:
