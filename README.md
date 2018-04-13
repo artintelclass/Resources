@@ -25,6 +25,7 @@ We'll use SFTP to move files between our computers and the class computers.
 - To navigate the file structure on your computer put an l before the commands for local: `lcd lls lpwd`
 - Get a file from the class computer: `get <FILENAME>`
 - Put a file from your computer on to the class computer: `put <FILENAME>`
+- Get all files and folders in a directory: `get -r *`
 - Quit SFTP: `bye`
 
 ### Misc.
