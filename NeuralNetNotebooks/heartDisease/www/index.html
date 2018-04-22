@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <!-- Load TensorFlow.js -->
+  <script src="tensorflow.js">
+  </script>
+</head>
+
+<body>
+  <span id="inwindow">Loading model...</span>
+
+  <script>
+    //data to run inference on:
+
+    //one with heart disease
+    const example1 = tf.tensor([
+      [45., 1., 1., 110., 264., 0., 0., 132.,
+        0., 1.2, 2., 0., 7.
+      ]
+    ])
+    //one with no heart disease
+    const example2 = tf.tensor([
+      [47., 1., 3., 130., 253., 0., 0., 179., 0.,
+        0., 1., 0., 3.
+      ]
+    ])
+
+    let model;
+    //await inside of async says don't do anything else in this function
+    //until you finish this job, i.e., loading the loadModel
+    //you can do other things outside of the function asynchronously
+    //it will continue when it's ready
+    async function loadandrun() {
+      //load model
+      model = await tf.loadModel('model.json');
+      //make a prediction once model is loaded
+      predict(example1);
+    }
+
+    //contains everything to predict
+    let predict = (example) => {
+      //make prediction
+      const prediction = model.predict(example);
+      //print the tensor holding our class predictions
+      prediction.print();
+      //get the index of the largest number in that tensor: argMax()
+      //bring that from tensorflow to plain js: dataSync()
+      //get the first (and only) element in that array: [0]
+      const p = prediction.argMax().dataSync()[0];
+      console.log("class: " + p);
+      setText(p);
+    }
+
+    //set the prediction text on page
+    let setText = (pred) => {
+      //0 for no heart disease, 1 for maybe heart disease
+      if (pred > 0) document.getElementById("inwindow").innerHTML = "You might have heart disease."
+      else document.getElementById("inwindow").innerHTML = "You're healthy!"
+    }
+
+    loadandrun();
+  </script>
+</body>
+
+</html>
