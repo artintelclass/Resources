@@ -26,4 +26,7 @@ tensorflowjs_converter \
 
 ## Examples
 * [Keras](https://github.com/artintelclass/Resources/tree/master/NeuralNetNotebooks/heartDisease)
-* [TensorFlow](https://github.com/artintelclass/Resources/tree/master/NeuralNetNotebooks/TF_SavedModel_web) 
+* [TensorFlow](https://github.com/artintelclass/Resources/tree/master/NeuralNetNotebooks/TF_SavedModel_web)
+
+## Links
+[Memo](https://github.com/memo/ofxMSATensorFlow/wiki/Preparing-models-for-ofxMSATensorFlow) For preparing models for ofxMSATensorFlow, but still applicable info.
