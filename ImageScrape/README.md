@@ -5,7 +5,7 @@ Python script for downloading images from Google Image Search. Can be used to do
 ### Usage
 Typical usage would be:
 
-`python imageScrape.py -s "rainbow" -n 10000 --square --resize`
+`python imageScrape.py -s "rainbow" -n 100 --square --resize`
 
 This downloads 10,000 square rainbow images, which have been resized to 224 x 224 pixels.
 
