@@ -23,3 +23,7 @@ tensorflowjs_converter \
     . \
     web_model
 ```
+
+## Examples
+* [Keras](https://github.com/artintelclass/Resources/tree/master/NeuralNetNotebooks/heartDisease)
+* [TensorFlow](https://github.com/artintelclass/Resources/tree/master/NeuralNetNotebooks/TF_SavedModel_web) 
