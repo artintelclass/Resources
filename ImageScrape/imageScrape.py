@@ -40,7 +40,7 @@ def main(args):
 		url = "https://www.google.co.in/search?q="+searchtext+"&source=lnms&tbm=isch&tbs=iar:s" # &tbs=iar:S means square
 	else:
 		url = "https://www.google.co.in/search?q="+searchtext+"&source=lnms&tbm=isch"
-	driver = webdriver.Chrome('/Users/aaronsherwood/Documents/artintelclass/Resources/ImageScrape/chromedriver')
+	driver = webdriver.Chrome('/Users/aaronsherwood/Documents/Classes/artintelclass/Resources/ImageScrape/chromedriver')
 	driver.get(url)
 
 	headers = {}
