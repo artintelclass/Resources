@@ -18,6 +18,12 @@ We will use tmux for a detachable command line window. tmux commands:
 - Reattach to a session: `tmux a -t <NAMEOFSESSION>`
 - Kill a session: `tmux kill-session -t <NAMEOFSESSION>`
 
+### Conda Usage
+- activate env: `source activate <YOUR_ENV_NAME>`
+- deactivate env: `source deactivate`
+- list enviroments: `conda env list`
+- remove an environment: `conda remove --name <YOUR_ENV_NAME> --all`
+
 ### SFTP
 We'll use SFTP to move files between our computers and the class computers.
 - SFTP into the class computer: `sftp nyuad@<IPADDRESS>`
